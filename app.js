@@ -1,4 +1,4 @@
-const numeroLimite = 10;
+const numeroLimite = 100;
 
 let numeroSecreto = gerarNumeroAleatorio();
 
@@ -31,8 +31,7 @@ function verificarChute() {
 
     if (chute === numeroSecreto) {
 
-        mensagem.innerHTML =
-            `Parabéns! Você acertou em ${tentativas} tentativa(s)!`;
+        mensagem.innerHTML = `Parabéns! Você acertou em ${tentativas} tentativa(s)!`;
 
 
     // ERROU
